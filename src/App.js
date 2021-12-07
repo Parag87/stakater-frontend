@@ -11,7 +11,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        const url = 'http://localhost:8080/sayhello?name=Stakater';
+        const url = 'http://stakater-backend/sayhello?name=Stakater';
         axios.get(url).then(response => {
             console.log('response : ');
             console.log(response);
